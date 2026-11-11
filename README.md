@@ -30,3 +30,5 @@ python scripts/plot_tornadoes.py
 ```
 
 The script reads `data/tornadoes.csv` and writes `figures/tornado_eda.png`.
+
+Project tracking: [Tornado EDA project](https://github.com/jamesebrandt/TornadoEDA/issues/1).
