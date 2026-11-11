@@ -1,7 +1,6 @@
 from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 p = ROOT / 'data/tornadoes.csv'
 d=pd.read_csv(p)

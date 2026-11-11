@@ -1,0 +1,12 @@
+[project]
+name = "tornado-eda"
+version = "0.1.0"
+description = "Exploratory analysis of 2015–2018 tornado tracks"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "pandas>=2.2,<3",
+  "matplotlib>=3.8,<4",
+]
+
+[tool.uv]
+package = false

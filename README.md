@@ -22,11 +22,11 @@ Fields include date, starting state, EF rating, track length and width, coordina
 
 ## Recreate the graph
 
-With Python 3 installed, run from the repository root:
+With [uv](https://docs.astral.sh/uv/) installed, run from the repository root:
 
 ```sh
-python -m pip install -r requirements.txt
-python scripts/plot_tornadoes.py
+uv sync
+uv run python scripts/plot_tornadoes.py
 ```
 
 The script reads `data/tornadoes.csv` and writes `figures/tornado_eda.png`.
